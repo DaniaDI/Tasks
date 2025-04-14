@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Form </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <style>
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
         body {
             font-family: 'Poppins', sans-serif;
             display: flex;
@@ -18,6 +20,7 @@
             background: linear-gradient(130deg, #667eea, #764ba2);
             margin: 0;
         }
+
         .form-container {
             background: white;
             padding: 25px;
@@ -27,21 +30,25 @@
             max-width: 400px;
             text-align: center;
         }
+
         .form-container h2 {
             margin-bottom: 20px;
             color: #333;
             font-weight: 600;
         }
+
         .form-group {
             margin-bottom: 20px;
             text-align: left;
         }
+
         .form-group label {
             display: block;
             margin-bottom: 8px;
             color: #3d3c3c;
             font-weight: 500;
         }
+
         .form-group input {
             width: 96%;
             padding: 12px;
@@ -51,11 +58,13 @@
             font-size: 14px;
             font-weight: 400;
         }
+
         .form-group input:hover {
             border-color: #667eea;
             outline: none;
             box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
         }
+
         .submit-btn {
             width: 100%;
             padding: 12px;
@@ -68,11 +77,13 @@
             cursor: pointer;
             transition: 0.3s;
         }
+
         .submit-btn:hover {
             background: #5643cc;
         }
     </style>
 </head>
+
 <body>
     <div class="form-container">
         <h2>Contact Us</h2>
@@ -93,4 +104,5 @@
         </form>
     </div>
 </body>
+
 </html>
