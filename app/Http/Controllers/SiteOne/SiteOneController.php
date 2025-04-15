@@ -21,8 +21,12 @@ class SiteOneController extends Controller
     }
 
     function msg($id = null){
-        return view('lect4.msg')->with('id',$id);
-    }
+        //1- return view('lect4.msg')->with('id',$id);
 
+        //2-return view('lect4.msg',[ 'id'=> $id]);
+
+        return view ('lect4.msg',compact('id'));
+    }
+ 
 
 }
