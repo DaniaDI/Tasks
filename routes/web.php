@@ -51,7 +51,8 @@ Route::prefix('site2')->controller(PersonalController::class)->name('personal.')
     Route::get('/projects','projects')->name('projects');
     Route::get('/resume', 'resume')->name('resume');
 
-    Route::post('/contact', 'postcontact')->name('postcontact');
+    Route::post('/contact','postconnect')->name('postconnect');
+    Route::get('/viewcontact','viewcontact')->name('viewcontact');
 
 });
 
